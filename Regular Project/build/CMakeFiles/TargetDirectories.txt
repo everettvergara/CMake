@@ -1,0 +1,3 @@
+D:/Everett/Codes/Settings/CMake/Regular Project/build/CMakeFiles/REGULAR.dir
+D:/Everett/Codes/Settings/CMake/Regular Project/build/CMakeFiles/edit_cache.dir
+D:/Everett/Codes/Settings/CMake/Regular Project/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,5 @@
+
+edit CMakeLists.txt
+cmake -S . -B build/ -G "MinGW Makefiles"
+create build folder
+run mingw32-make
