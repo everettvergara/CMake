@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\REGULAR.exec.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\REGULAR.exec.dir/objects.a @CMakeFiles\REGULAR.exec.dir\objects1.rsp
-C:\msys64\mingw64\bin\g++.exe -Wl,--whole-archive CMakeFiles\REGULAR.exec.dir/objects.a -Wl,--no-whole-archive -o REGULAR.exec.exe -Wl,--out-implib,libREGULAR.exec.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\REGULAR.exec.dir\linklibs.rsp
