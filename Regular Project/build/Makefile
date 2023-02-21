@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named REGULAR
+# Target rules for targets named regular
 
 # Build rule for target.
-REGULAR: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 REGULAR
-.PHONY : REGULAR
+regular: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 regular
+.PHONY : regular
 
 # fast build rule for target.
-REGULAR/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\REGULAR.dir\build.make CMakeFiles/REGULAR.dir/build
-.PHONY : REGULAR/fast
+regular/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\regular.dir\build.make CMakeFiles/regular.dir/build
+.PHONY : regular/fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\REGULAR.dir\build.make CMakeFiles/REGULAR.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\regular.dir\build.make CMakeFiles/regular.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -141,7 +141,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\REGULAR.dir\build.make CMakeFiles/REGULAR.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\regular.dir\build.make CMakeFiles/regular.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -149,7 +149,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\REGULAR.dir\build.make CMakeFiles/REGULAR.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\regular.dir\build.make CMakeFiles/regular.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -160,7 +160,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... REGULAR
+	@echo ... regular
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
