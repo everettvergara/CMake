@@ -128,6 +128,30 @@ regular/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\regular.dir\build.make CMakeFiles/regular.dir/build
 .PHONY : regular/fast
 
+adder.obj: adder.cpp.obj
+.PHONY : adder.obj
+
+# target to build an object file
+adder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\regular.dir\build.make CMakeFiles/regular.dir/adder.cpp.obj
+.PHONY : adder.cpp.obj
+
+adder.i: adder.cpp.i
+.PHONY : adder.i
+
+# target to preprocess a source file
+adder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\regular.dir\build.make CMakeFiles/regular.dir/adder.cpp.i
+.PHONY : adder.cpp.i
+
+adder.s: adder.cpp.s
+.PHONY : adder.s
+
+# target to generate assembly for a file
+adder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\regular.dir\build.make CMakeFiles/regular.dir/adder.cpp.s
+.PHONY : adder.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... regular
+	@echo ... adder.obj
+	@echo ... adder.i
+	@echo ... adder.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

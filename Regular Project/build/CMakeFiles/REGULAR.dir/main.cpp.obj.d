@@ -1,4 +1,4 @@
-CMakeFiles/REGULAR.dir/main.cpp.obj: \
+CMakeFiles/regular.dir/main.cpp.obj: \
  D:\Everett\Codes\Settings\CMake\Regular\ Project\main.cpp \
  C:/msys64/mingw64/include/c++/12.1.0/iostream \
  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/c++config.h \

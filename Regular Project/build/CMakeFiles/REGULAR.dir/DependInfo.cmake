@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/Everett/Codes/Settings/CMake/Regular Project/main.cpp" "CMakeFiles/REGULAR.dir/main.cpp.obj" "gcc" "CMakeFiles/REGULAR.dir/main.cpp.obj.d"
+  "D:/Everett/Codes/Settings/CMake/Regular Project/adder.cpp" "CMakeFiles/regular.dir/adder.cpp.obj" "gcc" "CMakeFiles/regular.dir/adder.cpp.obj.d"
+  "D:/Everett/Codes/Settings/CMake/Regular Project/main.cpp" "CMakeFiles/regular.dir/main.cpp.obj" "gcc" "CMakeFiles/regular.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links.

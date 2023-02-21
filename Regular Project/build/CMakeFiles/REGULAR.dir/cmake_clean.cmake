@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/regular.dir/adder.cpp.obj"
+  "CMakeFiles/regular.dir/adder.cpp.obj.d"
   "CMakeFiles/regular.dir/main.cpp.obj"
   "CMakeFiles/regular.dir/main.cpp.obj.d"
   "libregular.dll.a"
